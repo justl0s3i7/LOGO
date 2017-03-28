@@ -15,7 +15,7 @@
 .under:before{
   content: "";
   position: absolute;
-  width: 15%;
+  width: 10%;
   height: 2px;
   bottom: 0;
   left: 0;
