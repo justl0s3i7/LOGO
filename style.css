@@ -62,39 +62,37 @@ text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
 a {text-decoration: none; }
 html,
 body {
-    max-width: auto;
-    height: auto;
+    height: 100%;
 }
 
 .carousel,
 .item,
 .active {
-    max-width: auto;
+    width: 100%;
     height: auto;
 }
 
 .carousel-inner {
-    max-width: auto;
+    width: 100%;
     height: auto;
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
-    max-width: auto;
-    height: auto;
     
+    
+    width: 100%;
+    height: auto;
 }
 
 footer {
     margin: 50px 0;
 }
 
-.under  {
-  position: relative;
-  color: white;
-  text-decoration: none;
-}
+.under  
+
+
 
 .under:hover {
   color: #000;
@@ -204,10 +202,18 @@ hr{
 border-spacing: 60px;
 }
 
+.fbw
+{
+  border-spacing: 100px;
+  position: relative;
+  margin-top:20px; /*to have the space above the image*/
+   margin-bottom:20px;
+}
+
 .imgmr
 {
 	position: relative;
-	top:80px;
+	top:30px;
     text-align: left;
     border-spacing: 10px;
 }
