@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" >
+    <link href="style.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,38 +20,76 @@
     <![endif]-->
   </head>
   <body>
-
-
-
-  <div class="row logom ">
-      <img src="Images/TE.jpg" class="logomm center-block img-responsive" >
+  <div id="page">
+    <header class="container">
+      <div id="menu" class="navbar navbar-default  navbar-fixed-top">
+        <div class="navbar-right"><div id="logo"><a href="https://www.facebook.com/innovationisourdestiny/" 
+        style="text-decoration:none" target="_blank"><h4 class="h4d">THE LOGO MAN</h4></a></div>
+        </div>
       </div>
-    <div class="container">
+
+    </header>
+  </div>
+ 
+
+  <!-- Full Page Image Background Carousel Header -->
+<header id="myCarousel" class="carousel slide" data-interval="2000">
+    <!-- Indicators -->
+  
+
+    <!-- Wrapper for Slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <!-- Set the first background image using inline CSS below. -->
+            <div class="fill" style="background-image:url('Images/TE.jpg');"></div>
+            
+        </div>
+        <div class="item">
+            <!-- Set the second background image using inline CSS below. -->
+            <div class="fill" style="background-image:url('Images/silde1.jpg');"></div>
+            
+        </div>
+        
+    </div>
+
+    
+  
+
+</header>
+
+
+
+  
+      
+
+   
 
 
  
 <div class="row imgmr moveimage img-responsive">
 <div class="col-md-6">
-<div class="row col-md-12">
+<div class="row col-md-8 col-md-offset-2">
     <img src="Images/products.png" class=" img-circle img-responsive box col-xs-6 col-xs-offset-3" >
    
     
       
     </div>
-    <div class=" txtm col-md-12 under">
+    <div class=" txtm col-md-8 col-md-offset-2 under">
       <p><h4>Products</h4></p>
     </div>
     
     
     </div>
     <div class="col-md-6 ">
-    <div class="row col-md-12">
-    <img src="Images/gallery.png" class="box img-responsive col-xs-6 col-xs-offset-3" >
+    <div class="row col-md-8 col-md-offset-2">
+    <a href="Gallery.html" 
+        style="text-decoration:none" target="_blank" >
+    <img src="Images/gallery.png" class="box img-responsive col-xs-6 col-xs-offset-3"></a>
     
     
       
     </div>
-    <div class=" txtm col-md-12 under">
+    <div class=" txtm col-md-8 col-md-offset-2 under">
       <p><h4>Gallery</h4></p>
     </div>
     
@@ -60,18 +98,72 @@
 </div>
 <hr />
 <div class="con">
-<a href="#" class="btn btn-outline btn-lg"> Contact US</a>
+<a href="#Contact" data-toggle="collapse" class="CC btn btn-outline btn-lg "> Contact US</a>
+
+
+<div class ="collapse" id="Contact">
+<div class="row">
+<div class="col-md-1 col-md-offset-4">
+
+<a href="https://www.facebook.com/innovationisourdestiny/" 
+        style="text-decoration:none" target="_blank" > <img src="Images/fb.png" class="img-responsive box"></a></div>
+<div class="col-md-1 col-md-offset-2">
+<a href="#sentDialog" data-toggle="modal">
+<img src="Images/w.png" class="img-responsive box"></a></div>
+   </div>
 </div>
 </div>
+</div>
+
+
+
+<div class="modal fade" id="sentDialog" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="model-content">
+      <div class="model-header">
+      <div class="row">
+      <a href="#" class="close" data-dismiss="modal">&times;</a>
+      </div>
+      <h4 class="h5d">Sriram</h4>
+      <div class="model-body">
+      <div class="row">
+      <a href="https://www.facebook.com/striking.sriram" 
+        style="text-decoration:none" target="_blank" > 
+    <img src="Images/sri.jpg" class="img-thumbnail box1 img-responsive center-block" height="50px" width="200px"></a>
+    <br>
+    
+      
+    </div>
+      <div class="model-footer">
+      <h4 class="h5d">9884626580</h4>
+      <div class="row">
+      <button class="btn pull-right" data-dismiss="modal">CLOSE</button>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <footer class="bs-docs-footer">
-    <div class="jumbotron">
+    <div class="jumbotron1">
 <p> Copyrights!</p>
+</div></footer>
+<div class="devme">
+  <div class="txtm">
+    <p><h4>Developed By</h4></p>
+ 
+  <a href="https://www.facebook.com/Justl0seit" 
+        style="text-decoration:none" target="_blank" > 
+    <img src="Images/.jpg" class="devmeim  box1 img-responsive center-block" height="200px" width="300px"></a>
 </div>
-<div class="box"></div>
-    </footer>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+</div>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/site.js"></script>
+ </body>
 </html>
