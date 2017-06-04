@@ -78,13 +78,9 @@ body {
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
-    width: auto;
+    max-width: auto;
     height: auto;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    
 }
 
 footer {
