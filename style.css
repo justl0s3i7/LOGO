@@ -62,16 +62,19 @@ text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
 a {text-decoration: none; }
 html,
 body {
+    max-width: auto;
     height: auto;
 }
 
 .carousel,
 .item,
 .active {
+    max-width: auto;
     height: auto;
 }
 
 .carousel-inner {
+    max-width: auto;
     height: auto;
 }
 
