@@ -1,0 +1,51 @@
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #f8bb3d;
+  text-align: center;
+}
+
+
+.mbr-gallery-title:hover {
+    font-family: Montserrat;
+    font-size: 0.9em;
+    position: absolute;
+    display: block;
+    
+    
+    padding: 1rem;
+    color: #fff;
+    background: -webkit-linear-gradient(left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
+
+}
+
+body{
+	background-color: #5b4842;
+}
+
+.h4d {
+	color: #5b4842;
+font-family: 'Dosis', sans-serif;
+	font-weight: 100;
+	
+	
+}
+
+
+.h4d:hover {
+	-webkit-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+
+text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+
+}
+
+
+.navbar-right {
+	margin-top: 10px;
+    margin-right: 15px;
+
+
+  }
